@@ -1,0 +1,58 @@
+body {
+    background-color: #eaeaea;
+}
+
+#header {
+    background-color: #bec1f0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#nAndT {
+    background-color: #eaeaea;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#nAndT h1, h2 {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#contact {
+    list-style-type: none;
+}
+
+#contact i {
+    width: 30px;
+    color:#bec1f0;
+}
+#container{
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#sidebar, #content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px
+}
+
+.card {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: 1px solid #8b8b8bea;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.card h3 {
+    font-family: 'Roboto Mono', monospace;
+
+}
